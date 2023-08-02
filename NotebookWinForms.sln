@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotebookWinForms", "NotebookWinForms\NotebookWinForms.csproj", "{CA44DDAA-0F43-40FD-80E1-D8F7CAFA38BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA44DDAA-0F43-40FD-80E1-D8F7CAFA38BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA44DDAA-0F43-40FD-80E1-D8F7CAFA38BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA44DDAA-0F43-40FD-80E1-D8F7CAFA38BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA44DDAA-0F43-40FD-80E1-D8F7CAFA38BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2D7C816-2C5C-4DF3-BA72-6FB47193E34C}
+	EndGlobalSection
+EndGlobal
