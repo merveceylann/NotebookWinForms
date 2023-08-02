@@ -18,8 +18,8 @@
 
 <b>Not Düzenlenmesi;<b/><br>
 
-<img src="/NotebookWinForms/img/screenshot4.PNG" style="height:400px" ><br>
+<img src="/NotebookWinForms/img/screenshot5.PNG" style="height:400px" ><br>
 
 <b>Not Silinmesi;<b/><br>
 
-<img src="/NotebookWinForms/img/screenshot4.PNG" style="height:400px" ><br>
+<img src="/NotebookWinForms/img/screenshot6.PNG" style="height:400px" ><br>
