@@ -39,6 +39,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lblConnection = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -61,7 +63,7 @@
             this.label1.Location = new System.Drawing.Point(151, 35);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(223, 44);
+            this.label1.Size = new System.Drawing.Size(217, 43);
             this.label1.TabIndex = 1;
             this.label1.Text = "Not Listesi";
             // 
@@ -146,12 +148,34 @@
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
             // 
+            // lblConnection
+            // 
+            this.lblConnection.AutoSize = true;
+            this.lblConnection.Font = new System.Drawing.Font("Constantia", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblConnection.Location = new System.Drawing.Point(244, 509);
+            this.lblConnection.Name = "lblConnection";
+            this.lblConnection.Size = new System.Drawing.Size(20, 28);
+            this.lblConnection.TabIndex = 11;
+            this.lblConnection.Text = "-";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Constantia", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.Location = new System.Drawing.Point(54, 509);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(194, 28);
+            this.label4.TabIndex = 12;
+            this.label4.Text = "Connection State :";
+            // 
             // Note
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MistyRose;
             this.ClientSize = new System.Drawing.Size(1236, 576);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.lblConnection);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.label3);
@@ -184,5 +208,7 @@
         private Label label3;
         private RichTextBox richTextBox1;
         private PictureBox pictureBox1;
+        private Label lblConnection;
+        private Label label4;
     }
 }
