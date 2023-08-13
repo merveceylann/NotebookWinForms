@@ -9,7 +9,7 @@ namespace NotebookWinForms
 {
     public class DataStore
     {
-        public static AppUser AppUser = new AppUser { Id = 1, Username = "Admin", Password = "55" };
+        //public static AppUser AppUser = new AppUser { Id = 1, Username = "Admin", Password = "55" };
 
         //public static List<MyNote> Notes = new List<MyNote>()
         //{
@@ -35,10 +35,10 @@ namespace NotebookWinForms
     //}
 
 
-    public class AppUser
-    {
-        public string Username { get; set; }
-        public string Password { get; set; }
-        public int Id { get; set; }
-    }
+    //public class AppUser
+    //{
+    //    public string Username { get; set; }
+    //    public string Password { get; set; }
+    //    public int Id { get; set; }
+    //}
 }

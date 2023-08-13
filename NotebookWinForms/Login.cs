@@ -1,4 +1,5 @@
 ﻿using DocumentFormat.OpenXml.Drawing.Diagrams;
+using NotebookWinForms.Entites;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -22,32 +23,38 @@ namespace NotebookWinForms
 
         private void Login_Load(object sender, EventArgs e)
         {
-           
+
             //var notes = DataStore.Notes;
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            if (!string.IsNullOrEmpty(txtPassword.Text) && !string.IsNullOrEmpty(txtUsername.Text))
-            {
-                if (DataStore.AppUser.Username == txtUsername.Text && DataStore.AppUser.Password == txtPassword.Text)
-                {
-                    Note form1 = new Note();
+            //if (!string.IsNullOrEmpty(txtPassword.Text) && !string.IsNullOrEmpty(txtUsername.Text))
+            //{
+            //    if (AppUser.Username == txtUsername.Text && AppUser.Password == txtPassword.Text)
+            //    {
+            //        Note form1 = new Note();
 
-                    form1.Show();
-                    this.Hide();
-                }
-                else
-                {
-                    MessageBox.Show("Kullanıcı adı veya şifre hatalı");
-                }
+            //        form1.Show();
+            //        this.Hide();
+            //    }
+            //    else
+            //    {
+            //        MessageBox.Show("Kullanıcı adı veya şifre hatalı");
+            //    }
 
-            }
-            else
-            {
-                MessageBox.Show("Alanları boş bırakmayınız");
+            //}
+            //else
+            //{
+            //    MessageBox.Show("Alanları boş bırakmayınız");
 
-            }
+            //}
+
+            Note form1 = new Note();
+
+            form1.Show();
+            this.Hide();
+
         }
 
     }

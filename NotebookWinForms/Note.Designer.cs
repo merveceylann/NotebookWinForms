@@ -31,13 +31,13 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Note));
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtNote = new System.Windows.Forms.TextBox();
+            this.txtSubject = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.btnAdd = new System.Windows.Forms.Button();
             this.btnEdit = new System.Windows.Forms.Button();
             this.btnRemove = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.txtDescription = new System.Windows.Forms.RichTextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblConnection = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -67,12 +67,12 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Not Listesi";
             // 
-            // txtNote
+            // txtSubject
             // 
-            this.txtNote.Location = new System.Drawing.Point(841, 71);
-            this.txtNote.Name = "txtNote";
-            this.txtNote.Size = new System.Drawing.Size(329, 35);
-            this.txtNote.TabIndex = 2;
+            this.txtSubject.Location = new System.Drawing.Point(841, 71);
+            this.txtSubject.Name = "txtSubject";
+            this.txtSubject.Size = new System.Drawing.Size(329, 35);
+            this.txtSubject.TabIndex = 2;
             // 
             // label2
             // 
@@ -130,13 +130,13 @@
             this.label3.TabIndex = 8;
             this.label3.Text = "Not : ";
             // 
-            // richTextBox1
+            // txtDescription
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(841, 123);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(329, 199);
-            this.richTextBox1.TabIndex = 9;
-            this.richTextBox1.Text = "";
+            this.txtDescription.Location = new System.Drawing.Point(841, 123);
+            this.txtDescription.Name = "txtDescription";
+            this.txtDescription.Size = new System.Drawing.Size(329, 199);
+            this.txtDescription.TabIndex = 9;
+            this.txtDescription.Text = "";
             // 
             // pictureBox1
             // 
@@ -177,13 +177,13 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.lblConnection);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.txtDescription);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnRemove);
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.txtNote);
+            this.Controls.Add(this.txtSubject);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listBox1);
             this.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -200,13 +200,13 @@
 
         private ListBox listBox1;
         private Label label1;
-        private TextBox txtNote;
+        private TextBox txtSubject;
         private Label label2;
         private Button btnAdd;
         private Button btnEdit;
         private Button btnRemove;
         private Label label3;
-        private RichTextBox richTextBox1;
+        private RichTextBox txtDescription;
         private PictureBox pictureBox1;
         private Label lblConnection;
         private Label label4;
